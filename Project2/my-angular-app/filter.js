@@ -1,0 +1,10 @@
+var numarray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var newnumArray = [1, 11, 111, 1111, 111111, 1111111];
+var result = numarray.filter((function (num) { return num % 2 == 0; }));
+console.log(result);
+var result2 = numarray.find((function (num) { return num == null; }));
+console.log(result2);
+var result3 = numarray.reduce(function (acc, num) { return acc + num; });
+console.log(result3);
+var c = 1 /* Color.green */;
+console.log(c);
